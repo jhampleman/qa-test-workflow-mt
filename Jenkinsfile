@@ -8,4 +8,7 @@ pipeline {
     }
 
   }
+post {
+        <checkstyle step>
+    }
 }
