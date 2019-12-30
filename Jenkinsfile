@@ -9,6 +9,8 @@ pipeline {
 
   }
 post {
+  success {
         echo 'done'
+  }
     }
 }
