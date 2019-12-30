@@ -9,6 +9,6 @@ pipeline {
 
   }
 post {
-        <checkstyle step>
+        echo 'done'
     }
 }
