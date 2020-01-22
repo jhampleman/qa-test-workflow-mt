@@ -53,7 +53,7 @@ describe("Testing UI with jasmine", function() {
  
 
     it("checks for the background color of the div which contains the input elements", function() {
-      expect(window.getComputedStyle(document.getElementById("div1")).backgroundColor).toEqual("rgb(255, 0, 0)");
+      expect(window.getComputedStyle(document.getElementById("div1")).backgroundColor).toEqual("blue");
     });
     
     it("gets Hello! from the div by div ID", function() {
