@@ -24,6 +24,8 @@ import com.kms.katalon.core.webui.driver.WebUIDriverType as WebUIDriverType
 import org.openqa.selenium.logging.LogType as LogType
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
+
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://webdev.viasat.dev/jasmine/Jasmine.html')
