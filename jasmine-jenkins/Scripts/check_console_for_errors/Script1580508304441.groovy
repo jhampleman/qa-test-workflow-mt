@@ -23,14 +23,16 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.driver.WebUIDriverType as WebUIDriverType
 import org.openqa.selenium.logging.LogType as LogType
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
-
-
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://webdev.viasat.dev/jasmine/Jasmine.html')
 
 WebUI.waitForElementVisible(findTestObject('jasmine-panel'), 10)
+
+WebUI.verifyElementPresent(findTestObject('jasmine-error'), 0)
 
 WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
 
@@ -46,7 +48,7 @@ switch (executedBrowser) {
             println(errtxt)
 
             //Assert.assertFalse()
-            assert !(errtxt.contains('not defined'))
+            assert !errtxt.contains('faketest')
         }
 }
 

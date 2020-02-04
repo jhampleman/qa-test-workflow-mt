@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="katalon-jenkins-test" time="9.28" tests="1" failures="1" errors="0">
+   <testsuite name="katalon-jenkins-test" tests="1" failures="1" errors="0" time="9.28" timestamp="2020-02-04 10:37:16" hostname="jhampleman - lp-jhamplem-osx.hq.corp.viasat.com" id="Test Suites/katalon-jenkins-test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/jhampleman/Katalon Studio/jasmine-jenkins/Reports/20200204_103712/katalon-jenkins-test/20200204_103712"/>
+         <property name="logFiles" value="/Users/jhampleman/Katalon Studio/jasmine-jenkins/Reports/20200204_103712/katalon-jenkins-test/20200204_103712/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jhampleman - lp-jhamplem-osx.hq.corp.viasat.com"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="172.30.129.38"/>
+         <property name="sessionId" value="ae008d4de6f69c98892e513986a62f18"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/check_console_for_errors" time="8.644" classname="Test Cases/check_console_for_errors" status="FAILED">
+         <failure type="FAILED" message="Test Cases/check_console_for_errors FAILED.
+Reason:
+Assertion failed: 
+
+assert !(errtxt.contains('not defined'))
+       | |      |
+       | |      true
+       | https://webdev.viasat.dev/jasmine/Jasmine.html 39:9 Uncaught ReferenceError: fakefunc is not defined
+       false
+
+	at check_console_for_errors.run(check_console_for_errors:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580837832483.run(TempTestSuite1580837832483.groovy:36)
+"/>
+         <system-out><![CDATA[2020-02-04 10:37:16 - [TEST_CASE][FAILED] - Test Cases/check_console_for_errors: Test Cases/check_console_for_errors FAILED.
+Reason:
+Assertion failed: 
+
+assert !(errtxt.contains('not defined'))
+       | |      |
+       | |      true
+       | https://webdev.viasat.dev/jasmine/Jasmine.html 39:9 Uncaught ReferenceError: fakefunc is not defined
+       false
+
+	at check_console_for_errors.run(check_console_for_errors:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580837832483.run(TempTestSuite1580837832483.groovy:36)
+
+
+2020-02-04 10:37:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-04 10:37:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-02-04 10:37:17 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-04 10:37:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-04 10:37:20 - [TEST_STEP][PASSED] - navigateToUrl("https://webdev.viasat.dev/jasmine/Jasmine.html"): Navigate to 'https://webdev.viasat.dev/jasmine/Jasmine.html' successfully
+
+2020-02-04 10:37:24 - [MESSAGE][PASSED] - Navigate to 'https://webdev.viasat.dev/jasmine/Jasmine.html' successfully
+
+2020-02-04 10:37:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("jasmine-panel"), 10): Object 'Object Repository/jasmine-panel' is visible
+
+2020-02-04 10:37:24 - [MESSAGE][PASSED] - Object 'Object Repository/jasmine-panel' is visible
+
+2020-02-04 10:37:24 - [TEST_STEP][PASSED] - executedBrowser = getExecutedBrowser(): null
+
+2020-02-04 10:37:24 - [TEST_STEP][PASSED] - switch (executedBrowser): null
+
+2020-02-04 10:37:24 - [TEST_STEP][PASSED] - case CHROME_DRIVER:: null
+
+2020-02-04 10:37:24 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-02-04 10:37:24 - [TEST_STEP][PASSED] - logs = logs().get("browser"): null
+
+2020-02-04 10:37:25 - [TEST_STEP][PASSED] - for (org.openqa.selenium.logging.LogEntry entry : logs): null
+
+2020-02-04 10:37:25 - [TEST_STEP][PASSED] - errtxt = entry.getMessage(): null
+
+2020-02-04 10:37:25 - [TEST_STEP][PASSED] - println(errtxt): null
+
+2020-02-04 10:37:25 - [TEST_STEP][PASSED] - assert !(errtxt.contains("not defined")): null]]></system-out>
+         <system-err><![CDATA[2020-02-04 10:37:16 - [TEST_CASE][FAILED] - Test Cases/check_console_for_errors: Test Cases/check_console_for_errors FAILED.
+Reason:
+Assertion failed: 
+
+assert !(errtxt.contains('not defined'))
+       | |      |
+       | |      true
+       | https://webdev.viasat.dev/jasmine/Jasmine.html 39:9 Uncaught ReferenceError: fakefunc is not defined
+       false
+
+	at check_console_for_errors.run(check_console_for_errors:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580837832483.run(TempTestSuite1580837832483.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-04 10:37:16 - [TEST_SUITE][FAILED] - katalon-jenkins-test: Test Cases/check_console_for_errors FAILED.
+Reason:
+Assertion failed: 
+
+assert !(errtxt.contains('not defined'))
+       | |      |
+       | |      true
+       | https://webdev.viasat.dev/jasmine/Jasmine.html 39:9 Uncaught ReferenceError: fakefunc is not defined
+       false
+
+	at check_console_for_errors.run(check_console_for_errors:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580837832483.run(TempTestSuite1580837832483.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-02-04 10:37:16 - [TEST_SUITE][FAILED] - katalon-jenkins-test: Test Cases/check_console_for_errors FAILED.
+Reason:
+Assertion failed: 
+
+assert !(errtxt.contains('not defined'))
+       | |      |
+       | |      true
+       | https://webdev.viasat.dev/jasmine/Jasmine.html 39:9 Uncaught ReferenceError: fakefunc is not defined
+       false
+
+	at check_console_for_errors.run(check_console_for_errors:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580837832483.run(TempTestSuite1580837832483.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
